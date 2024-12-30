@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+
+}
+.border{
+border: 1.5px solid transparent;
+}
+.border:hover{
+border: 1.5px solid white;
+}
+/* box 2 */
+.upper{
+    font-size: 0.85rem;
+    color: #CCCCCC;
+    margin-left: 15px;
+    
+}
+.lower{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box 3 */
+.navsearch{
+    display: flex;
+    width: 620px;
+    background-color: aliceblue;
+    height: 42px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+
+.select{
+    background-color: #f6f6f6;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.input{
+width: 100%;
+font-size: 1rem;
+border: none;
+}
+.searchicon{
+    width: 45px;
+    background-color:#febd68 ;
+    display: flex;
+justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius : 3px;
+    border-bottom-right-radius : 3px;
+    color: #0f1111;
+}
+/* box4 */
+.lang{
+    display: flex;
+background-size: cover;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 21px;
+    height: 18px;
+}
+#sel{
+    margin-left: 4px;
+}
+/* box 5 */
+span{
+    font-size: 0.7rem;
+}
+.lower1{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart {
+    display: flex;
+}
+.cart1{
+    align-self: flex-end;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.one{
+    font-size: 30px;
+}
+.panel{
+    height: 39px;
+    display: flex;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+}
+.panop p{
+    display: inline;
+    margin-left: 15px;
+}
+.panop{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pandeal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.panall{
+    display: flex;
+    align-items: center;
+}
+.herosection{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+/* shop section */
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f60430;
+}
+.box{
+    height: 370px;
+    /* border: 2px solid black; */
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 10px;
+}
+.boximg{
+    height: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boxcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boxcontent a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.footpanel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footpanel2{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.footpanel2 a{
+    color: #DDDDDD;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+.footpanel2 p{
+font-size: 1.5rem;
+font-weight: 500;
+margin-top: 20px;
+}
+
+.footpanel3{
+    background-color: #222f3d;
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;}
+
+    .footpanel4{
+        background-color: #0f1111;
+        height: 75px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pages a{
+        margin-right: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    .hover:hover{
+        text-decoration: underline;
+    }
